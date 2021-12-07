@@ -1,0 +1,23 @@
+{
+  "name": "node-batching",
+  "version": "1.0.0",
+  "description": "demo for node request batching ",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "nodemon app"
+  },
+  "author": "adarsh kunwar",
+  "license": "MIT",
+  "dependencies": {
+    "connect-mongo": "^4.6.0",
+    "console.table": "^0.10.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongodb": "^4.2.1",
+    "mongoose": "^6.0.14",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.15"
+  }
+}
